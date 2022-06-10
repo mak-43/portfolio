@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #5265c4;
+    background: #292a2e;
   }
   
   .Navbar > .nav-logo {
@@ -51,9 +51,9 @@
       top: 60px;
       display: flex;
       flex-direction: column;
-      background: #3b4da7;
+      background: #232326;
       left: 0;
-      width: 100%;
+      width: 50%;
       height: 100%;
       transform: translateX(-100%);
       transition: all .45s;

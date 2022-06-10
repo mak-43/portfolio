@@ -11,11 +11,12 @@ const Navbar = () => {
 
             <div className={`nav-items ${isOpen && 'open'}`}>
                 <a href='/'>Home</a>
-                <a href='/resume'>Resume</a>
+                <a href='https://drive.google.com/file/d/1vu7OfEjWGji51NCsUO4c21KNvkkz76FX/view?usp=sharing'>Resume</a>
+                <a href='/about'>About</a>
                 <a href='/skill'>Skills</a>
                 <a href='/project'>Projects</a>
                 <a href='/blog'>Blogs</a>
-                <a href='/about'>About</a>
+               
                 <a href='/contact'>Contact</a>
 
             </div>

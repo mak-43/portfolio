@@ -3,7 +3,7 @@ import React from 'react';
 const Skill = () => {
     return (
         <div>
-            skill
+           <h2>Skills</h2>
         </div>
     );
 };
