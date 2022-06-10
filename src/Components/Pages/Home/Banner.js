@@ -8,7 +8,7 @@ const Banner = () => {
 
     return (
         <div >
-            <div className='flex justify-evenly flex-row  px-10 '>
+            <div className='flex justify-evenly flex-row  my-10'>
                 <div className='basis-1/2 '>
                     Hi ,I am Muslim Ahmed Khan  {' '}
                     <span style={{ color: 'red', fontWeight: 'bold' }}>
@@ -26,7 +26,7 @@ const Banner = () => {
                     </span>
                 </div>
                 <div className='basis-1/4  '>
-                    <img src={pic} alt="" />
+                    <img className='rounded-full' src={pic} alt="" />
                 </div>
             </div>
         </div>
