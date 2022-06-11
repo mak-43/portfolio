@@ -8,10 +8,10 @@ const Footer = () => {
             <div  className='flex gap-4 justify-center items-center py-3 text-xl text-orange-400 '>
                 
                 <a className=' text-orange-400' href='https://www.facebook.com/mak00143/' target={"blank"} ><i class="fa-brands fa-facebook"></i></a>
-                <a className=' text-orange-400' href='https://www.facebook.com/mak00143/' target={"blank"} > <i class="fa-brands fa-twitter"></i></a>
+                <a className=' text-orange-400' href='https://twitter.com/makmuslim143' target={"blank"} > <i class="fa-brands fa-twitter"></i></a>
                 <a className=' text-orange-400' href='https://www.facebook.com/mak00143/' target={"blank"} ><i class="fa-brands fa-instagram"></i></a>
                 <a className=' text-orange-400' href='https://www.facebook.com/mak00143/' target={"blank"} > <i class="fa-brands fa-youtube"></i></a>
-                <a className=' text-orange-400' href='https://www.facebook.com/mak00143/' target={"blank"} > <i class="fa-solid fa-envelope"></i></a>    
+                <a className=' text-orange-400' href='https://www.linkedin.com/in/mak143/' target={"blank"} > <i class="fa-brands fa-linkedin"></i></a>    
             </div>
             <div className='text-white text-center'><small>Copyright &copy; {year}  </small></div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Typewriter } from 'react-simple-typewriter'
+
 import pic from '../../Assets/p.jpg'
+import Typewriter from 'typewriter-effect'
 const Banner = () => {
 
 
@@ -9,9 +10,17 @@ const Banner = () => {
     return (
         <div >
             <div className='flex justify-evenly flex-row  my-10 '>
-                <div className='basis-1/2 flex flex-col justify-center  '>
-                    Hi ,I am Muslim Ahmed Khan  {' '}
-                    <span style={{ color: 'red', fontWeight: 'bold' }}>
+                <div className='basis-1/2  flex flex-col justify-center  '>
+                    Hi ,I am Muslim Ahmed Khan <p className='text-red-500 text-xl font-bold'>
+                        <Typewriter  options={{ sutoStart: true, loop: true }}
+                            onInit={(typewriter) => {
+                                typewriter.typeString('MERN Stack Developer').pauseFor(2000).deleteAll().typeString('Front-End Developer').pauseFor(2000).deleteAll().typeString('MERN Stack Developer').start()
+
+                            }}
+                            />
+                    </p>
+                    
+                    {/* <span style={{ color: 'red', fontWeight: 'bold' }}>
                         <Typewriter
                             words={['A MERN Stack Web Developer', 'A Self Believer']}
                             loop={5}
@@ -23,7 +32,7 @@ const Banner = () => {
                         //onLoopDone={handleDone}
                         // onType={handleType}
                         />
-                    </span>
+                    </span> */}
                     <p className='mt-10'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis possimus quia quidem a, quasi animi impedit ipsa architecto aut vero eos quod vitae quae voluptatibus fugiat totam iure unde ullam.</p>
                 </div>
                 <div className='basis-1/4  '>

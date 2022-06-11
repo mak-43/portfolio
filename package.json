@@ -19,6 +19,7 @@
     "react-scroll-to-bottom": "^4.2.0",
     "react-simple-typewriter": "^3.0.1",
     "react-smart-scroller": "^1.1.22",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
