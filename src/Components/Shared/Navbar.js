@@ -17,9 +17,10 @@ const Navbar = () => {
               
                 
                
-               <Link to='/blog'>Blogs</Link>
+              
                
                 <a href='#contact'>Contact</a>
+                <Link to='/blog'>Blogs</Link>
 
             </div>
 
