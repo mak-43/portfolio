@@ -9,6 +9,7 @@ import Skill from './Components/Pages/Home/Skill';
 import Blogs from './Components/Pages/Blogs/Blogs';
 import About from './Components/Pages/About/About';
 import Navbar from './Components/Shared/Navbar';
+import Footer from './Components/Shared/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/about' element={<About/>} ></Route>
 
       </Routes>
+      <Footer/>
     </div>
   );
 }

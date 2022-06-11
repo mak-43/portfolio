@@ -12,14 +12,14 @@ const Navbar = () => {
             <div className={`nav-items ${isOpen && 'open'}`}>
                 <a href='/'>Home</a>
                 <a target='blank' href='https://drive.google.com/file/d/1drbED3CnENdjBy0MjRSWOUGJ1xva75wb/view?usp=sharing'>Resume</a>
-                <a href='/project'>Projects</a>
-                <a href='/skill'>Skills</a>
-                <a href='/about'>About</a>
+                <a  href='#projects'>Projects</a>
+                {/* <a href='/skill'>Skills</a> */}
+              
                 
                
-                <a href='/blog'>Blogs</a>
+               <Link to='/blog'>Blogs</Link>
                
-                <a href='/contact'>Contact</a>
+                <a href='#contact'>Contact</a>
 
             </div>
 
