@@ -8,7 +8,7 @@ const Banner = () => {
 
     return (
         <div >
-            <div className='flex justify-evenly flex-row  my-10'>
+            <div className='flex justify-evenly flex-row  my-10 '>
                 <div className='basis-1/2 '>
                     Hi ,I am Muslim Ahmed Khan  {' '}
                     <span style={{ color: 'red', fontWeight: 'bold' }}>
